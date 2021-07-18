@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+
+.img-presentacion{
+	width: 100%;
+    height: 95vh;
+    background-image: linear-gradient(180deg, #ffffff33, #ffffff33 100%), url(../img/Imagenhome1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+}
+
+.presentacion-text{
+	background-color: #ffffff33;
+	backdrop-filter: blur(25px);
+	margin-top: 35vh;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 0 0 5px #00000033;
+}
+
+.boton-index{
+	margin-top: 40vh;
+	font-size: 4em;
+	text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+
+
